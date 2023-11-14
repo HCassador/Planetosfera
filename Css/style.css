@@ -1,0 +1,57 @@
+
+.cabecalho{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+main{
+    background: linear-gradient(#000000, #4B0082);
+
+    text-align: center;
+    padding: 2em 5em 2em 5em;
+}
+
+ul li{
+    width: 15%;
+    text-align: center;
+    padding: 2em 1.5em;
+    margin: 0 .75em 1em .75em;
+
+    display: inline-block;
+
+    border: 2px solid white;
+    border-radius: 10px;
+}   
+
+.planetas{
+    width: 25%;
+    margin-bottom: .75em;
+}
+
+.saturno{
+    width: 30%; 
+}
+
+.nomePlaneta{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.25em;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+    ul li{
+        display: block;
+
+        width: 80%;
+        margin: 2em 0;
+    }
+
+    .planetas{
+        width: 50%;
+    }
+
+    .nomePlaneta{
+        font-size: 1.5em;
+    }
+}
